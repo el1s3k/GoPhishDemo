@@ -44,7 +44,7 @@ Before proceeding, make sure you have the following:
 
    - **Run web_setup script from GoPhishDemo repository**
 	 - In your home directory, create a script. (e.g. nano setup.sh).
-     - Copy web_setup.sh script from [GoPhish GitHub page](https://github.com/el1s3k/GoPhishDemo).
+     - Copy web_setup.sh script from [el1s3k GitHub page](https://github.com/el1s3k/GoPhishDemo).
      - Paste into your script (e.g. nano setup.sh) and save it. 
 	 - Change the permissions of the script to be executable. (e.g. chmod +x setup.sh).
 	 - Run script. (./setup.sh)
@@ -62,7 +62,7 @@ Before proceeding, make sure you have the following:
 
    - **Run phish_setup script from GoPhishDemo repository**
 	 - In your home directory, create a script. (e.g. nano setup.sh).
-     - Copy phish_setup.sh script from [GoPhish GitHub page](https://github.com/el1s3k/GoPhishDemo).
+     - Copy phish_setup.sh script from [el1s3k GitHub page](https://github.com/el1s3k/GoPhishDemo).
      - Paste into your script (e.g. nano setup.sh) and save it. 
 	 - Change the permissions of the script to be executable. (e.g. chmod +x setup.sh).
 	 - Run script. (./setup.sh)
@@ -163,5 +163,5 @@ For this simulation, I have used my own email accounts to send and receive simul
 ## References
 - [GoPhish Official Documentation](https://github.com/gophish/gophish)
 - [Google App Password support thread](https://support.google.com/accounts/answer/185833?hl=en)
-- [MailHog Official Documentation] (https://github.com/mailhog/MailHog)
+- [MailHog Official Documentation](https://github.com/mailhog/MailHog)
 - [Microsoft Azure](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure)
