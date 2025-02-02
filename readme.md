@@ -1,9 +1,9 @@
 # Conducting a Phishing Campaign Simulation using Azure, GoPhish, and MailHog
 
 
-"**Disclaimer: This phishing simulation is for educational purposes only and aims to improve cybersecurity awareness.** 
+	**Disclaimer: This phishing simulation is for educational purposes only and aims to improve cybersecurity awareness.** 
 
-No personal data is collected. Tools used are open-source and referrenced."
+No personal data is collected. Tools used are open-source and referrenced.
 
 This guide walks you through the steps to perform a phishing simulation using **GoPhish** on **Azure** virtual machines with **MailHog** as an SMTP server.
 This simulation includes a personally created web page to be hosted on an Azure VM to serve as a landing page to mimic.
@@ -12,7 +12,7 @@ This also includes a personally created email template to be used to simulate a 
 Configuration to use Gmail SMTP server with Google App Password is provided optionally for the purpose of studying security controls
 and protocols of commonly used email services like gmail. When conducting such testing the appropriate permissions must acquired.
 
-**Phishing is illegal and unethical, and engaging in such activities outside a controlled environment can result in severe consequences.**
+	**Phishing is illegal and unethical, and engaging in such activities outside a controlled environment can result in severe consequences.**
 
 
 ## Prerequisites
