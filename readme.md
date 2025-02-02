@@ -2,6 +2,7 @@
 
 
 "**Disclaimer: This phishing simulation is for educational purposes only and aims to improve cybersecurity awareness.** 
+
 No personal data is collected. Tools used are open-source and referrenced."
 
 This guide walks you through the steps to perform a phishing simulation using **GoPhish** on **Azure** virtual machines with **MailHog** as an SMTP server.
@@ -10,6 +11,7 @@ This also includes a personally created email template to be used to simulate a 
 
 Configuration to use Gmail SMTP server with Google App Password is provided optionally for the purpose of studying security controls
 and protocols of commonly used email services like gmail. When conducting such testing the appropriate permissions must acquired.
+
 **Phishing is illegal and unethical, and engaging in such activities outside a controlled environment can result in severe consequences.**
 
 
@@ -50,7 +52,7 @@ Before proceeding, make sure you have the following:
 
 ### 3. **Set up web host**
    
-   - **Connect to your Azure VM**
+   - **Connect to your Azure web-host VM**
      - SSH into your Virtual Machine.
 
    - **Run web_setup script from GoPhishDemo repository**
@@ -61,14 +63,14 @@ Before proceeding, make sure you have the following:
 	 - Run script. (./setup.sh)
 	 
    - **VM IP prompt**
-	 - The script would prompt to input local host IP for web host VM.
+	 - The script would prompt to input VM localhost IP.
 
    - **Verify DemoNET web page is hosted**
 	 - Go to http://localhost_ip. (e.g. http://111.111.111.111).
 	
 ### 4. **Set up GoPhish and MailHog**
    
-   - **Connect to your Azure VM**
+   - **Connect to your Azure GoPhish VM**
      - SSH into your Virtual Machine.
 
    - **Run phish_setup script from GoPhishDemo repository**
