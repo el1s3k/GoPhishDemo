@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urgent: Security Incident Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fb;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background-color: #ffffff;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header img {
+            width: auto;
+            height: auto;
+            max-width: 800px;
+            max-height: 100px;
+        }
+        h1 {
+            color: #333;
+            font-size: 20px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #808080;
+        }
+        footer {
+            text-align: center;
+            color: #777;
+            font-size: 12px;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="https://raw.githubusercontent.com/el1s3k/GoPhishDemo/refs/heads/main/DemoNET/images/DemoNET_1.png" alt="Company Logo">
+    </header>
+    
+    <h1>Security Alert: Potential Data Exposure</h1>
+    
+    <p>We are reaching out to inform you that your personal information may have been compromised in a recent data breach involving the DemoNET platform. Our security team has identified that sensitive information linked to your account was exposed and may be available publicly on the web.</p>
+    
+    <p><strong>Leak Information:</strong></p>
+    <ul>
+        <li><strong>Service Affected:</strong> DemoNET Database</li>
+        <li><strong>Data Leak Detected:</strong> January 21, 2025</li>
+        <li><strong>Potentially Exposed Information:</strong> Your name, email address, phone number, and other personal details.</li>
+    </ul>
+    
+    <p>We take the security of your information seriously, and we recommend that you take immediate action to secure your account.</p>
+    
+    <p>Please visit the link below to review your account and take necessary steps to protect your data:</p>
+    
+    <a href="{{.URL}}" class="btn">Secure My Account</a>
+    
+    <footer>
+        <p>If you have any questions or need assistance, feel free to contact our support team.</p>
+        <p>Stay safe,</p>
+        <p>The DemoNET Security Team</p>
+        <p><small>If you did not initiate this request, please disregard this message.</small></p>
+    </footer>
+</div>
+
+</body>
+</html>
+
